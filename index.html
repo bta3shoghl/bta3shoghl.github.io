@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta name="google-site-verification" content="DmhTDXtcKAJKrsfEZ9Yyq6ZHKl-lNs3c3al_zANGxMM" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بتاع شغل | لوحة الوظائف اليومية في مصر والسعودية</title>
+<meta name="description" content="بتاع شغل - قناة تليجرام لأحدث الوظائف اليومية في مصر والسعودية، رواتب تنافسية تصل إلى 50,000 جنيه. انضم الآن.">
+
+<!-- Favicon / logo -->
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="logo-192.png">
+<meta name="theme-color" content="#EFE6D2">
+
+<!-- Open Graph (Facebook / WhatsApp / link previews) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="بتاع شغل">
+<meta property="og:title" content="بتاع شغل | لوحة الوظائف اليومية في مصر والسعودية">
+<meta property="og:description" content="وظائف يومية محدثة في مصر والسعودية، رواتب تنافسية تصل إلى 50,000 جنيه.">
+<meta property="og:image" content="og-image.png">
+<meta property="og:image:alt" content="بتاع شغل - لوحة الوظائف اليومية في مصر والسعودية">
+<meta property="og:locale" content="ar_EG">
+<meta property="og:url" content="https://bta3shoghl.github.io/">
+
+<!-- Twitter / X card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="بتاع شغل | لوحة الوظائف اليومية في مصر والسعودية">
+<meta name="twitter:description" content="وظائف يومية محدثة في مصر والسعودية، رواتب تنافسية تصل إلى 50,000 جنيه.">
+<meta name="twitter:image" content="og-image.png">
+<meta name="twitter:image:alt" content="بتاع شغل - لوحة الوظائف اليومية في مصر والسعودية">
+
+<!-- Structured data: helps Google show the logo + name as a brand result -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "بتاع شغل",
+  "alternateName": "Bta3 Shoghl",
+  "url": "https://bta3shoghl.github.io/",
+  "logo": "https://bta3shoghl.github.io/logo-512.png",
+  "sameAs": ["https://t.me/Managerjobs_5"],
+  "description": "لوحة وظائف يومية محدثة في مصر والسعودية برواتب تنافسية."
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --board:#C9BB9E;
+    --paper:#F6EEDC;
+    --paper-2:#EFE4CB;
+    --ink:#26241D;
+    --rust:#BE4A1E;
+    --forest:#2F6B4F;
+    --pin:#B23A3A;
+    --muted:#736A57;
+    --line:rgba(38,36,29,0.14);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--board);
+    background-image:
+      radial-gradient(rgba(0,0,0,0.06) 1px, transparent 1px);
+    background-size:14px 14px;
+    color:var(--ink);
+    font-family:'Cairo',sans-serif;
+    overflow-x:hidden;
+  }
+  h1,h2,h3,.stamp-font{font-family:'Rakkas',serif;}
+  a{color:inherit;text-decoration:none;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
+
+  /* ===== PUSHPIN ===== */
+  .pin{
+    position:absolute;top:-9px;right:calc(50% - 8px);
+    width:16px;height:16px;border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #e07a7a, var(--pin) 70%);
+    box-shadow:0 3px 4px rgba(0,0,0,0.35);
+    z-index:3;
+  }
+
+  /* ===== HEADER ===== */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:var(--paper);
+    border-bottom:3px solid var(--ink);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;}
+  .brand{display:flex;align-items:center;gap:10px;font-family:'Rakkas';font-size:24px;}
+  .stamp-btn{
+    display:inline-flex;align-items:center;gap:8px;
+    background:var(--rust);color:var(--paper);
+    font-weight:800;font-size:14px;
+    padding:11px 22px;border:2px solid var(--ink);border-radius:999px;
+    transform:rotate(-2deg);
+    box-shadow:3px 3px 0 var(--ink);
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .stamp-btn:hover{transform:rotate(0deg) translate(-2px,-2px);box-shadow:5px 5px 0 var(--ink);}
+  .ghost-btn{
+    border-bottom:2px dashed var(--ink);
+    font-weight:700;font-size:14px;padding:6px 2px;
+  }
+
+  /* ===== HERO ===== */
+  .hero{position:relative;padding:70px 0 50px;text-align:center;}
+  .eyebrow-tape{
+    display:inline-block;background:var(--forest);color:var(--paper);
+    font-weight:700;font-size:12.5px;padding:6px 18px;
+    transform:rotate(-1.5deg);margin-bottom:26px;
+    box-shadow:2px 2px 0 rgba(0,0,0,0.2);
+  }
+  h1{
+    font-size:clamp(40px,7vw,68px);
+    line-height:1.25;color:var(--ink);
+  }
+  h1 .rust{color:var(--rust);}
+  .lede{
+    margin:22px auto 0;max-width:52ch;
+    font-size:17px;line-height:1.9;color:var(--muted);font-weight:500;
+  }
+  .hero-actions{display:flex;justify-content:center;gap:16px;margin-top:34px;flex-wrap:wrap;}
+  .hero-actions .stamp-btn{padding:16px 30px;font-size:16px;}
+
+  .tally{
+    display:flex;justify-content:center;gap:36px;margin-top:50px;flex-wrap:wrap;
+  }
+  .tally-item{
+    background:var(--paper);border:2px solid var(--ink);border-radius:10px;
+    padding:14px 20px;transform:rotate(-1deg);
+    box-shadow:3px 3px 0 rgba(0,0,0,0.15);
+  }
+  .tally-item:nth-child(even){transform:rotate(1.2deg);}
+  .tally-item .n{font-family:'Rakkas';font-size:26px;color:var(--rust);}
+  .tally-item .l{font-size:12px;color:var(--muted);font-weight:600;}
+
+  /* ===== CORKBOARD JOB FLYERS (signature element) ===== */
+  .board-section{padding:80px 0 40px;position:relative;}
+  .section-head{text-align:center;margin-bottom:50px;}
+  .section-head h2{font-size:clamp(28px,4vw,40px);}
+  .section-head p{color:var(--muted);margin-top:10px;font-weight:600;}
+
+  .flyer-grid{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:34px 26px;
+  }
+  .flyer{
+    position:relative;
+    background:var(--paper);
+    border:1.5px solid var(--ink);
+    padding:20px 18px 26px;
+    box-shadow:4px 6px 0 rgba(0,0,0,0.18);
+    clip-path:polygon(0% 0%,100% 0%,100% 94%,96% 100%,90% 93%,84% 100%,78% 93%,72% 100%,66% 93%,60% 100%,54% 93%,48% 100%,42% 93%,36% 100%,30% 93%,24% 100%,18% 93%,12% 100%,6% 93%,0% 100%);
+  }
+  .flyer:nth-child(6n+1){transform:rotate(-1.6deg);}
+  .flyer:nth-child(6n+2){transform:rotate(1.1deg);}
+  .flyer:nth-child(6n+3){transform:rotate(-0.8deg);}
+  .flyer:nth-child(6n+4){transform:rotate(1.7deg);}
+  .flyer:nth-child(6n+5){transform:rotate(-1.2deg);}
+  .flyer:nth-child(6n+6){transform:rotate(0.9deg);}
+  .flyer .badge{
+    position:absolute;top:14px;left:14px;
+    background:var(--forest);color:var(--paper);
+    font-size:10.5px;font-weight:700;padding:3px 10px;border-radius:4px;
+    transform:rotate(-4deg);
+  }
+  .flyer .title{font-family:'Rakkas';font-size:19px;margin-top:20px;}
+  .flyer .meta{margin-top:12px;font-size:13px;color:var(--muted);font-weight:600;line-height:2;}
+  .flyer .salary{
+    margin-top:10px;display:inline-block;
+    border:1.5px dashed var(--rust);color:var(--rust);
+    font-weight:800;font-size:14px;padding:5px 12px;border-radius:6px;
+  }
+
+  /* ===== CATEGORIES (typewriter tags) ===== */
+  .cat-wrap{
+    background:var(--paper-2);border-top:3px solid var(--ink);border-bottom:3px solid var(--ink);
+    padding:60px 0;margin-top:80px;
+  }
+  .tag-cloud{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;}
+  .tag{
+    background:var(--paper);border:2px solid var(--ink);border-radius:999px;
+    padding:12px 22px;font-weight:700;font-size:14.5px;
+    display:flex;align-items:center;gap:8px;
+  }
+
+  /* ===== STEPS ===== */
+  .steps-section{padding:80px 0;}
+  .steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;}
+  .step-card{
+    background:var(--paper);border:2px solid var(--ink);border-radius:12px;
+    padding:26px 22px;position:relative;box-shadow:3px 4px 0 rgba(0,0,0,0.15);
+  }
+  .step-card .num{
+    font-family:'Rakkas';font-size:38px;color:var(--rust);line-height:1;
+  }
+  .step-card h3{font-size:18px;margin-top:10px;}
+  .step-card p{font-size:13.5px;color:var(--muted);margin-top:8px;line-height:1.8;font-weight:500;}
+
+  /* ===== FINAL CTA ===== */
+  .final-cta{
+    text-align:center;background:var(--ink);color:var(--paper);
+    border-radius:18px;padding:64px 28px;margin:20px auto 90px;
+    position:relative;
+  }
+  .final-cta h2{font-size:clamp(26px,4.4vw,38px);}
+  .final-cta p{color:#C9C0A9;margin-top:12px;font-size:15.5px;font-weight:500;}
+  .final-cta .stamp-btn{margin-top:28px;padding:17px 34px;font-size:16.5px;background:var(--rust);}
+
+  footer{
+    text-align:center;padding:26px 0 40px;color:var(--muted);font-size:13px;font-weight:600;
+  }
+
+  @media(max-width:860px){
+    .flyer-grid{grid-template-columns:repeat(2,1fr);}
+    .steps-grid{grid-template-columns:1fr;}
+  }
+  @media(max-width:560px){
+    .flyer-grid{grid-template-columns:1fr;}
+    .ghost-btn{display:none;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav wrap">
+    <div class="brand">بتاع شغل</div>
+    <div style="display:flex;gap:14px;align-items:center;">
+      <a href="#board" class="ghost-btn">شوف الوظائف</a>
+      <a href="https://t.me/Managerjobs_5" class="stamp-btn">انضم الآن ↗</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow-tape">تحديث يومي · مصر والسعودية</div>
+    <h1>لوحة الوظائف <span class="rust">اليومية</span><br>بتاع شغل</h1>
+    <p class="lede">كل الوظائف الجديدة بتتنشر هنا زي لوحة إعلانات حقيقية — من غير وسطاء، ومن غير رسوم، ومن غير دوشة.</p>
+    <div class="hero-actions">
+      <a href="https://t.me/Managerjobs_5" class="stamp-btn">انضم للقناة على تليجرام ↗</a>
+    </div>
+    <div class="tally">
+      <div class="tally-item"><div class="n">1,158</div><div class="l">مشترك</div></div>
+      <div class="tally-item"><div class="n">يومي</div><div class="l">تحديث الوظائف</div></div>
+      <div class="tally-item"><div class="n">50 ألف</div><div class="l">أقصى راتب معلن</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="board-section wrap" id="board">
+  <div class="section-head">
+    <h2>آخر الوظائف المنشورة</h2>
+    <p>عينة من الوظائف اللي بتتنشر يوميًا على القناة</p>
+  </div>
+  <div class="flyer-grid">
+    <div class="flyer"><div class="pin"></div><div class="badge">جديد</div><div class="title">خدمة عملاء</div><div class="meta">📍 القاهرة<br>🕒 دوام كامل</div><div class="salary">8,000 - 12,000 ج</div></div>
+    <div class="flyer"><div class="pin"></div><div class="badge">جديد</div><div class="title">مندوب مبيعات</div><div class="meta">📍 الرياض<br>🕒 راتب + عمولة</div><div class="salary">حسب الأداء</div></div>
+    <div class="flyer"><div class="pin"></div><div class="badge">جديد</div><div class="title">دعم فني</div><div class="meta">📍 عن بعد<br>🕒 لغات متعددة</div><div class="salary">مرتب تنافسي</div></div>
+    <div class="flyer"><div class="pin"></div><div class="badge">جديد</div><div class="title">محاسب</div><div class="meta">📍 جدة<br>🕒 دوام كامل</div><div class="salary">6,000 - 9,000 ر.س</div></div>
+    <div class="flyer"><div class="pin"></div><div class="badge">جديد</div><div class="title">مسؤول تسويق</div><div class="meta">📍 القاهرة<br>🕒 دوام كامل</div><div class="salary">حتى 15,000 ج</div></div>
+    <div class="flyer"><div class="pin"></div><div class="badge">جديد</div><div class="title">مشرف مبيعات</div><div class="meta">📍 الإسكندرية<br>🕒 دوام كامل</div><div class="salary">حتى 50,000 ج</div></div>
+  </div>
+</section>
+
+<section class="cat-wrap">
+  <div class="wrap">
+    <div class="section-head"><h2>المجالات المتاحة</h2></div>
+    <div class="tag-cloud">
+      <div class="tag">🎧 خدمة عملاء</div>
+      <div class="tag">📈 مبيعات وتسويق</div>
+      <div class="tag">🖥️ تقنية المعلومات</div>
+      <div class="tag">🏢 إدارة ومحاسبة</div>
+      <div class="tag">🌍 عمل عن بعد</div>
+      <div class="tag">🇸🇦 وظائف السعودية</div>
+    </div>
+  </div>
+</section>
+
+<section class="steps-section wrap">
+  <div class="section-head">
+    <h2>إزاي تستخدم القناة؟</h2>
+  </div>
+  <div class="steps-grid">
+    <div class="step-card"><div class="num">١</div><h3>انضم للقناة</h3><p>اضغط "انضم الآن" وسجّل دخولك لقناة بتاع شغل على تليجرام مجانًا.</p></div>
+    <div class="step-card"><div class="num">٢</div><h3>تابع الوظائف اليومية</h3><p>كل وظيفة بتتنشر فيها الراتب والمكان وطريقة التقديم بوضوح.</p></div>
+    <div class="step-card"><div class="num">٣</div><h3>قدّم مباشرة</h3><p>تواصل مع جهة العمل حسب المنشور، من غير وسيط ومن غير رسوم.</p></div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="final-cta">
+    <h2>الوظيفة اللي بتدور عليها ممكن تتنشر النهاردة</h2>
+    <p>انضم دلوقتي لأكتر من 1,158 عضو بيتابعوا آخر فرص العمل في مصر والسعودية</p>
+    <a href="https://t.me/Managerjobs_5" class="stamp-btn">انضم للقناة على تليجرام ↗</a>
+  </div>
+</div>
+
+<footer>قناة "بتاع شغل" — t.me/Managerjobs_5 · قناة عامة على تليجرام</footer>
+
+</body>
+</html>
